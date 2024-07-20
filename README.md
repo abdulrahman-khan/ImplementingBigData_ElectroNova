@@ -3,8 +3,10 @@ A case study conducted by Abdulrahman Khan & Nathan Hill in December 2021
 
 Revisited by Abdulrahman Khan in July 2024
 
-This report outlines the project requirements and provides a detailed analysis of the recommended solutions. It also describes the processes implemented in the proof-of-concept solution and how these align with the company's business needs.
 **Full report document can be found in the repository**
+
+This report outlines the project requirements and provides a detailed analysis of the recommended solutions. It also describes the processes implemented in the proof-of-concept solution and how these align with the company's business needs.
+
 
 **TODO: ADD ICONS FOR TECHNOLOGIES USED**
 
@@ -17,8 +19,8 @@ Simple Java program to systematically organize files into separate directories b
 ![image](https://github.com/user-attachments/assets/dd38cc86-4ec2-4059-bd18-d51263efed2e)
 
 # Data Analysis: MapReduce
+**The program files can be found under the Task2 project in this repository.**
 
-The program files can be found under the Task2 project in this repository
 The first Mapper and Reduce programs collect the Energy Consumption for a singular day. The key pair value is the houseID, the date and the hour at which the reading was taken.
 The reducer combines the values to get the Energy Consumption for that singular hour. Since the readings are cumulative, we calculate the difference from the previous interval. 
 We use a CustomWriter class to hold the previous reading's value.
