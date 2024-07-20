@@ -186,7 +186,8 @@ agent1.channels.channel3.type = memory
 ```
 Running Flume
 
-![image](https://github.com/user-attachments/assets/e843572a-c3ac-4451-909a-09bfd4749856)
+![unknown](https://github.com/user-attachments/assets/d5903274-e5a5-4078-a085-78657e74c9c8)
+
 
 Flume Output Files
 
